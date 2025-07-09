@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Futures Averaging Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Futures Averaging Calculator</h1>
+    <div class="calculator">
+        <label>Entry Price 1: <input type="number" id="entry1"></label>
+        <label>Position Size 1: <input type="number" id="size1"></label>
+        <label>Leverage: <input type="number" id="leverage"></label>
+        <label>Target Entry Price: <input type="number" id="targetPrice"></label>
+        <label>Buy Price 2: <input type="number" id="buyPrice2"></label>
+        <button onclick="calculate()">Calculate</button>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
